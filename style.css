@@ -119,9 +119,14 @@ header nav ul li a:hover {
   height: 300px; /* Maintain aspect ratio */
   margin-bottom: 30px;
 }
+.join-container{
+  display: flex;
+  justify-content: space-between;
+}
 
 .form-container{
-  margin: 40px;
+  display: flex
+  flex-direction: vertical
   width: 80%;
 }
 
@@ -195,16 +200,25 @@ footer p {
     margin-right: 2%;
   }
   
-  .main_img{
-    max-width: 50%;
+  .main-img{
+    width: 100px;
   }
   .images{
     display: flex;
   }
   .small-image{
     max-width: 50%;
-  }.container {
+  }
+  
+  .form img{
+    width: 66px;
+  }
+  .form-container{
+    width: 85%;
+  }
+  #join{
     display: flex;
+    justify-content: space-evenly;
   }
   
   .form-container {
@@ -213,6 +227,7 @@ footer p {
     justify-content: center;
     flex-direction: column;
   }
+  
   
   form {
     border: 2px solid #6b1a22;
@@ -263,20 +278,16 @@ footer p {
     width: 100%;
   }
   
-  .container{
+  .container {
     display: flex;
-    align-items: center;
-  
-    }
-  
-    .container img{
-      width: 50%;
-      height: auto;
-      margin:0
+    justify-content: space-between;
+  }
+  .container-img{
+    width: 66px
   }
 
   
   #join img{
-     width: 50%;
+     width: 66%;
   }
   }
